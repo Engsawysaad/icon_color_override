@@ -1,0 +1,5 @@
+include pyproject.toml
+recursive-include icon_color_override *.py
+recursive-include icon_color_override public *
+global-exclude __pycache__
+global-exclude *.py[cod]

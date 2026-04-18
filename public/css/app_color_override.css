@@ -1,0 +1,141 @@
+/* ============================================
+   Icon Color Override - ERPNext Custom App
+   Color: #0891b2 (Cyan)
+   Upgrade-safe: Uses app_include_css in hooks.py
+   ============================================ */
+
+/* SVG icons - Lucide/Frappe icons */
+.frappe-icon svg,
+.frappe-icon svg use,
+.frappe-icon svg path,
+.lucide-icon svg,
+.lucide-icon svg use,
+.lucide-icon svg path,
+svg use,
+svg path {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Generic icon classes */
+.icon svg,
+.erpnext-icon svg,
+.navbar-icon svg,
+.nav-icon svg,
+.sidebar-icon svg,
+.workspace-icon svg {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Button icons */
+.btn-icon svg,
+.btn-icon use,
+.action-icon svg,
+.action-icon use,
+.button-icon svg,
+.button-icon use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Navigation icons */
+.nav-sidebar .sidebar-item-icon svg,
+.nav-sidebar .sidebar-item-icon use,
+.sidebar-section-icon svg,
+.sidebar-section-icon use,
+.workflow-sidebar-icon svg,
+.workflow-sidebar-icon use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Desk icons */
+.desk-icon svg,
+.desk-icon use,
+.list-icon svg,
+.list-icon use,
+.form-icon svg,
+.form-icon use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Page icons (web pages, portal) */
+.web-page-icon svg,
+.web-page-icon use,
+.portal-icon svg,
+.portal-icon use,
+.page-icon svg,
+.page-icon use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Module icons */
+.module-icon svg,
+.module-icon use,
+.app-icon svg,
+.app-icon use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Report and dashboard icons */
+.report-icon svg,
+.report-icon use,
+.chart-icon svg,
+.chart-icon use,
+.dashboard-icon svg,
+.dashboard-icon use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* File and attachment icons */
+.file-icon svg,
+.file-icon use,
+.attachment-icon svg,
+.attachment-icon use,
+.folder-icon svg,
+.folder-icon use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* All octicon classes */
+.octicon {
+    color: #0891b2 !important;
+}
+
+.octicon svg,
+.octicon svg use {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Any element with icon class containing 'icon' */
+[class*="icon-"] svg,
+[class*="icon-"] use,
+[class*="icon-"] path {
+    fill: #0891b2 !important;
+    stroke: #0891b2 !important;
+}
+
+/* Font awesome icons if used */
+.fa,
+.fas,
+.far,
+.fal,
+.fab {
+    color: #0891b2 !important;
+}
+
+/* For icons using mask-image (some Frappe icons) */
+.icon-set {
+    color: #0891b2 !important;
+}
+
+.icon-set svg path {
+    fill: #0891b2 !important;
+}
