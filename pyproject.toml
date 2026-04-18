@@ -6,7 +6,7 @@ authors = [
     { name = "Your Company", email = "your@email.com" }
 ]
 requires-python = ">=3.10"
-dependencies = ["frappe>=14.0.0"]
+dependencies = []
 
 [project.urls]
 Home = "https://github.com/Engsawysaad/icon_color_override"
