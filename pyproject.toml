@@ -5,21 +5,12 @@ description = "Override ERPNext icon colors to custom color"
 authors = [
     { name = "Your Company", email = "your@email.com" }
 ]
-requires = ["frappe>=14.0.0"]
-dependencies = []
+requires-python = ">=3.10"
+dependencies = ["frappe>=14.0.0"]
 
 [project.urls]
-Home = "https://github.com/yourorg/icon_color_override"
+Home = "https://github.com/Engsawysaad/icon_color_override"
 
 [build-system]
-requires = ["flit_core>=3.4.0"]
-build-backend = "flit_core.buildapi"
-
-[tool.frappe]
-app_module = "icon_color_override"
-app_title = "Icon Color Override"
-app_publisher = "Your Company"
-app_icon = "octicon octicon-paintbrush"
-app_color = "cyan"
-app_version = "0.0.1"
-app_license = "MIT"
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
