@@ -1,0 +1,10 @@
+{
+  "name": "icon_color_override",
+  "version": "0.0.1",
+  "description": "Override ERPNext icon colors to custom color",
+  "main": "public/js/icon_color_override.js",
+  "scripts": {
+    "build": "echo 'No build required'"
+  },
+  "dependencies": {}
+}
